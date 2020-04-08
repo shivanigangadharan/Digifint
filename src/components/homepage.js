@@ -22,9 +22,7 @@ const Heading = styled.text`
     font-weight: 100;
     color: white;
     font-size: 600%;
-    margin-top: 35vh; 
-    margin-left: 5vw;    
-    position: absolute;
+    margin-top: 20vh;
     `
 const Main = styled.div`
     background-image: url(${laptop});
@@ -36,21 +34,23 @@ const Box = styled.div`
     padding: 5%;
     text-align: center;
     border: 1px solid white;
-    border-radius: 3px;
-    width: 30%;
-    position: absolute;
-    margin-left: 45vw;
-    margin-top: 10vh;
+    border-radius: 3px; 
+    margin-top: 20vh;
+
 `
 function HomePage() {
     return (
         <Main>
-            <Heading> DigiFinT </Heading><br />
-            <Box>
-                <Link to="/userdetails"> <Button> User </Button></Link><br />
-                <Link to="/bankpage"> <Button> Bank </Button></Link><br />
-                <Link to="/firmpage"> <Button> Firm </Button></Link>
-            </Box>
+            <div className="container">
+                <div className="row">
+                    <Heading className="col-lg-6 col-md-5 col-sm-12"> DigiFinT </Heading>
+                    <Box className="col-lg-6 col-md-5 col-sm-12">
+                        <Link to="/userdetails"> <Button> User </Button></Link><br />
+                        <Link to="/bankpage"> <Button> Bank </Button></Link><br />
+                        <Link to="/firmpage"> <Button> Firm </Button></Link>
+                    </Box>
+                </div>
+            </div >
         </Main>
     )
 }
