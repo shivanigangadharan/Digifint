@@ -5,7 +5,7 @@ function FirmPage() {
     return (
         <div>
             firm page
-            
+
         </div>
     )
 }

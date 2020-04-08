@@ -17,7 +17,7 @@ function UserDetails() {
     const [branch, setBranch] = useState('');
     const [uniqueID, setUniqueId] = useState();
     return (
-        <div>
+        <div>user details page
             <Box>
                 <Input onChange={e => { setAcctName(e.target.value) }} style={{ margin: '1%', width: '70%', display: 'block' }} placeholder="Account holder name" />
                 <Input onChange={e => { setAcctNo(e.target.value) }} style={{ margin: '1%', width: '70%', display: 'block' }} placeholder="Account Number" />
