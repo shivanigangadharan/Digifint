@@ -27,6 +27,7 @@ const Heading = styled.text`
 `
 
 function Dashboard(props) {
+    var vid = Math.floor(10000000 + Math.random() * 90000000);;
     return (
         <Dash>
             <Heading> Dashboard</Heading>
@@ -36,7 +37,8 @@ function Dashboard(props) {
                 Account number: acctno <br /><br />
                 Bank: bank <br /><br />
                 IFSC Code: ifsc <br /><br />
-                Branch: branch <br /><br />
+                Branch: branch <br /><br /><br />
+                Your unique verification id is: <b> {vid} </b>. Please keep it safely for future reference.
             </DashBox>
 
         </Dash>
