@@ -25,6 +25,7 @@ const Input = styled.input`
     padding: 1.5%;
     margin-top: 8%;
     color: black;
+    width: 50%;
 `
 const Button = styled.button`
 background: none;
@@ -38,8 +39,8 @@ function BankPage() {
         <Main>
             <Box>
                 <h2> Enter user details below </h2>
-                <Input placeholder="Enter unique id of user" /><br /><br />
-                <center><Button> Submit </Button></center>
+                <Input placeholder="Enter the unique ID of user" /><br /><br />
+                <center><Button> Send account information to NBFC </Button></center>
             </Box>
         </Main>
     )
