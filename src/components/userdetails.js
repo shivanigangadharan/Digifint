@@ -65,11 +65,8 @@ function UserDetails(props) {
         })
         console.log("submitted", props.addUserDetails);
     }
-
-
     return (
         <div>
-
             <Main><center>
                 <Box>
                     <form>
@@ -84,9 +81,7 @@ function UserDetails(props) {
                         </Link>
                     </form>
                 </Box></center>
-
             </Main>
-
         </div>
     )
 }
