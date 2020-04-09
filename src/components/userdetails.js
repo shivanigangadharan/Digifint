@@ -77,7 +77,7 @@ function UserDetails(props) {
                         <br /><Input onChange={e => { setBranch(e.target.value) }} style={{ margin: '1%', width: '70%', display: 'block' }} placeholder="Branch name" />
                         <br />
                         <Link to="/dashboard">
-                            <Button onClick={e => { handleSubmit(e) }} style={{ margin: '2%' }} htmlType="submit" type="primary"> Submit </Button>
+                            <Button onClick={e => { handleSubmit(e) }} style={{ margin: '2%' }} htmlType="submit" type="primary"> Link bank account </Button>
                         </Link>
                     </form>
                 </Box></center>

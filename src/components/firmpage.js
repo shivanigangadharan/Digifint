@@ -40,30 +40,30 @@ margin-top: 8%;
 
 function FirmPage() {
     function myFunction() {
-        alert("Request sent!");
-     }
+        window.alert("Your request for user information has been successfully sent!");
+    }
     return (
         <Main>
             <Box>
                 <form>
-                <h3>Bank name:</h3>
-                <Input placeholder="" />
-                <h3>Branch name:</h3>
-                <Input placeholder="" />
-                <h3>User Name:</h3>
-                <Input placeholder="" />
-                <h3>User Account No:</h3>
-                <Input placeholder="" />
-                <h3>Aggregator ID:</h3>
-                <Input placeholder="" />
-                 <br></br>
-                <center><Button onClick="{myFunction}"> Submit </Button></center>
+                    <h3>Bank name:</h3>
+                    <Input placeholder="" />
+                    <h3>Branch name:</h3>
+                    <Input placeholder="" />
+                    <h3>User Name:</h3>
+                    <Input placeholder="" />
+                    <h3>User Account No:</h3>
+                    <Input placeholder="" />
+                    <h3>Aggregator ID:</h3>
+                    <Input placeholder="" />
+                    <br></br>
+                    <center><Button onClick={myFunction}> Submit </Button></center>
                 </form>
             </Box>
 
         </Main>
     )
-    
+
 }
 
 
